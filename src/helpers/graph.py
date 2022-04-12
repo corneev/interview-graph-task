@@ -44,7 +44,7 @@ def convert_into_word(path: List[int], lookup_dict: Dict[int, str]) -> str:
 
 def is_word(word: str) -> bool:
     """
-    Check prowided string is an English dictionary word
+    Check if provided string is actually an English word according to dictionary
     pyenchant check() wrapper
     :params word: String to check
     :return: True if it is an English word, and False otherwise.
