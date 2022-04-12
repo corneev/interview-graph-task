@@ -31,4 +31,3 @@ for path in path_list:
             english_words.append(word)
 
 print(f"{english_words=}")
-print("a")
